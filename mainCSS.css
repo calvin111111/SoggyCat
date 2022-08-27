@@ -10,6 +10,7 @@ body {
 
   h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
   }
 
   p {
@@ -17,10 +18,17 @@ body {
     font-size: 20px;
   }
 
+  .centered {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
   a.noHyperlink {
     text-decoration: none;
     font-family: 'Segoe UI' Verdana, Geneva, Tahoma, sans-serif;
     color:black;
+    vertical-align: middle;
   }
 
 
@@ -41,4 +49,20 @@ body {
   .cyberspace-banner-container h1 {
     display: inline-block;
     vertical-align: middle;
+  }
+  .cyberspace-banner-container h2 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .cyberspace-banner-container .align-right {
+    float: right;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  .align-right .no-hyperlink {
+    text-decoration: none;
+    font-family: 'Segoe UI' Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    vertical-align: middle;
+    float: right;
   }
