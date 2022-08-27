@@ -31,6 +31,12 @@ body {
     vertical-align: middle;
   }
 
+  h2.answer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+  }
+
 
 /* CSS for Containers */ 
   div.cyberspace-banner-container {
