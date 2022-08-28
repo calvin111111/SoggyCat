@@ -50,4 +50,58 @@ body {
   .cyberspace-banner-container h1 {
     display: inline-block;
     vertical-align: middle;
+<<<<<<< HEAD
+=======
+  }
+  .cyberspace-banner-container h2 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .cyberspace-banner-container .align-right {
+    float: right;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  .align-right .no-hyperlink {
+    text-decoration: none;
+    font-family: 'Segoe UI' Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    vertical-align: middle;
+    float: right;
+  }
+
+
+  .cyberspace-concept-left {
+    float:left;
+    text-align: left;
+    padding-left: 460px;
+    padding-top: 50px;
+    max-width: 400px;
+  }
+  .cyberspace-concept-left h1 {
+    text-align: left;
+  }
+  .cyberspace-concept-left h2 {
+    text-align: left;
+  }
+  .cyberspace-concept-left img {
+    float: right;
+  }
+
+  .cyberspace-concept-right {
+    float:right;
+    text-align: right;
+    padding-right: 460px;
+    padding-top: 50px;
+    max-width: 400px;
+  }
+  .cyberspace-concept-right h1 {
+    text-align: right;
+  }
+  .cyberspace-concept-right h2 {
+    text-align: right;
+  }
+  .cyberspace-concept-right img {
+    float: left;
+    vertical-align: middle;
   }
